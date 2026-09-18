@@ -44,6 +44,7 @@ tests/*
 !tests/test_ruby_analyzer.py
 !tests/test_processing_order_update.py
 !tests/test_leaf_selection.py
+!tests/test_branding.py
 !tests/test_artifact_analyzer.py
 !tests/test_scala_analyzer.py
 
@@ -59,13 +60,9 @@ repo_data/
 docs/.cache/
 
 # Environment variables
-.env*
 *.env
-**/.env
-**/.env.*
 
 # IDEs
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -87,3 +84,5 @@ Thumbs.db
 !tests/test_updater_change_report.py
 !tests/test_updater_write_guard.py
 !tests/test_updater_orchestrator.py
+config.bat
+node_modules
